@@ -6,9 +6,12 @@ Moudule
 def pascal_triangle(n):
     """ Function """
     lst = []
+
     if(n <= 0):
         return lst
+
     lst.append([1])
+
     for i in range(1,n):
         tmp = []
         for j in range(i + 1):
