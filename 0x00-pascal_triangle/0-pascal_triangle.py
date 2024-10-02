@@ -1,11 +1,10 @@
+
+#!/usr/bin/python3
 """
 Moudule
 """
-#!/usr/bin/python3
-"""
-pascal 
-"""
 def pascal_triangle(n):
+    """ Function """
     lst = []
     if(n<=0):
         return lst
