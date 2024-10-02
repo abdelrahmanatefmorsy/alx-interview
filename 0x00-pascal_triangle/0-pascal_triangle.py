@@ -1,4 +1,10 @@
+"""
+Moudule
+"""
 #!/usr/bin/python3
+"""
+pascal 
+"""
 def pascal_triangle(n):
     lst = []
     if(n==0):
@@ -15,6 +21,3 @@ def pascal_triangle(n):
             tmp.append(sum)
         lst.append(tmp)
     return lst
-lst = pascal_triangle(10)
-for i in lst:
-    print(i)
