@@ -7,7 +7,7 @@ pascal
 """
 def pascal_triangle(n):
     lst = []
-    if(n==0):
+    if(n<=0):
         return lst
     lst.append([1])
     for i in range(1,n):
