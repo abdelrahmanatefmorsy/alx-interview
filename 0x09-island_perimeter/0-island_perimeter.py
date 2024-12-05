@@ -7,8 +7,8 @@ def island_perimeter(grid):
     y1 = 1000
     x2 = 0
     y2 = 0    
+    tmp2 = 0
     for i in range(len(grid)):
-        tmp2 = 0
         for j in range(len(grid[i])):
             if grid[i][j] == 1:
                 x1 = min(x1,i)
